@@ -1,0 +1,148 @@
+body{
+    min-width: 1200px;
+    min-height: 850px;
+    height: 1300px;
+    width: 100%;
+}
+/* header_navigation */
+.top_logo_menu{
+    width: 100%;
+    height: 100px;
+    padding-right: 20px;
+    border-bottom: 3px solid black;
+    border-radius: 50px 20px;
+    font-weight: bolder;
+    min-width: 1200px;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+#logo_img{
+    width: 170px;
+    height: 150px;
+    float: left;
+}
+li{
+    list-style: none;
+    float: left;
+}
+#menu_bar{
+    display: flex;
+    justify-content: space-around;
+}
+.menus{
+    line-height: 100px;
+    padding : 10px;
+}
+#log{
+    margin-right: 0;
+}
+
+/* main */
+.program_main{
+    margin: 0;
+    padding: 0;
+    min-width: 1200px;
+}
+#main_title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.car_total{
+    display: flex;
+    justify-content: left;
+    min-width: 1000px;
+    padding: 30px;
+    margin-left: 10%;
+}
+.car_show{
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+    min-width: 800px;
+}
+.car_comment{
+    min-width: 500px;
+    margin-left: 50px;
+}
+.container{
+    width: 2500px;
+    transition: transform 0.5s;
+    position: relative;
+    margin: 0 auto;
+}
+.inner{
+    width: 800px;
+    display: inline-block;
+}
+.inner img{
+    width: 800px;
+    height: 500px;
+}
+.introduce_top{
+    font-weight: bolder;
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+.introduce_word{
+    font-weight: bolder;
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+    margin: 10px
+}
+button{
+    background-color: skyblue;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0;
+    margin-left: 10px;
+}
+button:hover{
+    background-color: steelblue;
+}
+.flower_total{
+    display: flex;
+    justify-content: left;
+    min-width: 1000px;
+    padding: 30px;
+    margin-left: 10%;
+}
+.flower_comment{
+    min-width: 550px;
+    margin-left: 50px;
+}
+.flower_show{
+    width: 800px;
+    min-width: 800px;
+    height: 500px;
+    overflow: hidden;
+}
+.flower_container{
+    width: 2500px;
+    transition: transform 0.5s;
+    position: relative;
+    margin: 0 auto;
+}
+.flower_inner{
+    width: 800px;
+    display: inline-block;
+}
+.flower_inner img{
+    width: 800px;
+    height: 500px;
+}
+.bts1, .bts2, .bts3{
+    background-color: pink;
+}
+.bts1:hover, .bts2:hover, .bts3:hover{
+    background-color: hotpink;
+}
